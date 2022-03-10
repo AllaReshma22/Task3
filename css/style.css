@@ -76,7 +76,7 @@ body{
     background-color: white;
     color:green;
 }
-.registry{
+.register{
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -85,7 +85,7 @@ body{
     width:1100px;
 
 }
-.registry li{
+.register li{
     display: inline;
     align-items: center; 
     color:#9497A8;
