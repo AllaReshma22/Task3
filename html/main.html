@@ -7,12 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/resp.js"> </script>
 </head>
 <body>
     <section class="header">
         <div>
+            <img src="../assets/logo.png" class="logo" alt="">
             <ul class="navbar">
-                <img src="../assets/logo.png" class="logo" alt="">
+            
                 <li style="width:20%"></li>
                 <li class="hover"><a href="#welcome">Welcome Jeffery   |</a></li>
                 <li class="hover"><a href="#Account">My Account   |</a></li>
@@ -23,39 +25,40 @@
         </div>
     </section>
     <div>
-        <ul class="wall-feed">
+        <ul class="wall-feed h-nav-resp v-class-resp">
                <li style="width:9%"></li>
                 <li class="hover"><a href ="#">Dining</a></li>
-                <li class="hover"><a href="#">Crystal</a></li>
                 <li class="hover"><a href="#">Crystal</a></li>
                 <li class="hover"><a href="#">By Brand</a></li>
                 <li class="hover"><a href="#">What's New</a></li>
                 <li class="hover"><a href="#">Find a Gift</a></li>
                 <li class="hover"><a href="#">Wedding Ideas</a></li>
                 <li class="hover"><a href="#">Clearance & Special Offers</a></li>
-                <input type="text" name="txtSearchContent" class="search-Bar"placeholder="Search Keyword/Item&#35"/>
+                <input type="text" name="txtSearchContent" class="search-bar v-class-resp"placeholder="Search Keyword/Item&#35"/>
                 <button type:"button">GO</button>
-                <li style="width:9%"></li>
-
-        </ul>
-    </div>
+            </ul>
+        </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
     <div>
         <ul class="register">
 
                 <li><a href="#">Free Shipping on Orders over $150</a></li>
                 <li><a href="#">Holiday Platters</a></li>
                 <li><a href="#">Celebrate Thanksgiving</a></li>
-                <li style="width:10%"></li>
+                <li style="width:5%"></li>
                 <li><img src="../assets/bridelRegistry.jpg"><a href="#">Bridal Registry</a></li>
                 <li style="width:9%"</li>
 
         </ul>
              
     </div>
-    <table class="content">
-        <tr>
-            <td class="left"><img style="border: 5px solid white; " src="../assets/Recipe.jpg"></td>
-            <td  class="right"rowspan="4"><h1>Dress your table</h1>
+    <ul class="content">
+            <li class="left"><img style="border: 5px solid white; " src="../assets/Recipe.jpg"></li>
+            <li  class="right"><h1>Dress your table</h1>
                <h2> Create a fabulous new look
                     for your next event, Choose from
                      various styles and ideas.</h2>               
@@ -64,9 +67,9 @@
                 <pre class="points">Brunch</pre>
                 <pre class="points">Themes</pre>
                 <pre class="points">Wine &Cheese</pre>
-            </td>
-        </tr>
-    </table>
+               </li>
+
+            </ul>
     <section class="bottom">
         <div class="column">
             <h2>You'll love our fine stemware collection</h2>
@@ -83,7 +86,7 @@
             <h2>Mikasa  Clearance sale 20% to 80% off</h2>
             <h5>Ut wisi enim ad minim veniam quis nostrud exerd tation</h5>
 
-            <pre class="image"><img src="../assets/promo_album.png" alt="Mike" style="width:50%"></pre>
+            <pre class="image"><img src="../assets/promo_album.png" alt="Mike" style="width:35%"></pre>
             
 
         </div> 
@@ -94,8 +97,8 @@
             <li class="hover"><a href="#">About Mikasa</a></li><li>|</li>
             <li class="hover"><a href="#">Customer Service</a></li><li>|</li>
             <li class="hover"><a href="#">Privacy policy</a></li>
-            <li class="signup"><h4>SignUp to receive special offers from mikasa</h4></li>
         </ul>
+        <div class="signup"><h4>SignUp to receive special offers from mikasa</h4></div> 
     </div>
     <p>For Assistance call us at 1.866.645.2721(Mon-Fri 8:30am-6:00pm est) or <u>Email Us</u></p>
     <div class="email">
@@ -104,6 +107,6 @@
     </div>
    <pre class="copyright">&#169 Copyright 2008 Mikasa & Company</pre> 
     </section>
-
+    <script src="../js/resp.js"> </script>
 </body>
 </html>

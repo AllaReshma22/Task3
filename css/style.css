@@ -17,9 +17,9 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width:1100px;
+    width:100%;
     margin-top: 70px;
-    margin-left: -70px;
+    margin-left: 170px;
 }
 
 .navbar li{
@@ -28,6 +28,7 @@ body{
     font-family:Trebuchet MS;
     float:right;
     color:#979797;
+    padding:0 20px;
     
 }
 .navbar  li a{
@@ -41,7 +42,8 @@ body{
     color:green;
 }
 .logo{
-    margin-left:-10px;
+    margin-left:120px;
+    margin-top: 60px; 
     position: absolute;
     width:150px;
     height:40px;
@@ -54,18 +56,17 @@ body{
     height:40px; 
     width:100%;
     border: white; 
-    margin-left:-50px;
+    margin-left:-5px;
 }
 .wall-feed li{
     display: inline;
     align-items: center;
     justify-content: space-between;
-    padding:0 20px;
+    padding:0 40px;
     font-family:Trebuchet MS;
     font-size: 14px;
     float:right;
     color: black; 
-    padding: 0 20px;
     margin-right:0px;
 }
 .wall-feed  li a{
@@ -81,8 +82,8 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-top: -10px;
-    margin-left:180px;
-    width:1100px;
+    margin-left:350px;
+    width:1500px;
 
 }
 .register li{
@@ -94,11 +95,15 @@ body{
     font-size: 14px;
     padding:0 20px;
 }
+.content{
+    width:1410px;
+   
+}
 .left{
-    padding-left:250px;
-    height: 500px;
-    width:700px;
-    height:350px;
+    padding-left:400px;
+    height: 350px;
+    width: 800px;
+    margin-top: 3%;
 }
 h1{
     margin-top: -80px;
@@ -109,8 +114,9 @@ h2{
     font-size: 15px;
 }
 .bottom{
-    margin-left:250px;
-    width:1600px;   
+    margin-left:440px;
+    width:1640px;
+    margin-top: -1%;   
 }
 
 .column {
@@ -129,8 +135,10 @@ h2{
   .right{
     background-color: black;
     width:300px;
-    height:350px;
+    height:417px;
     padding-left: 2%;
+    margin-left: 78%;
+    margin-top: -24.8%;
   }
   h5{
       color:#979797;
@@ -143,6 +151,7 @@ h2{
   .footer{
     margin-top:150px;
     width:1600px; 
+    margin-left: 200px;
 
   }
   .links-part{
@@ -165,12 +174,14 @@ h2{
       justify-content: space-between;
   }
   .signup{
-      margin-left:380px;
+      margin-right:25%;
       float:right;
-      margin-top:-20px;
+      margin-top:-5px;
+      color:#979797;
+
   }
   p{
-      margin-top: -30px;
+      margin-top: -15px;
       float:left;
       margin-left: 250px;
       color: #979797;
@@ -186,6 +197,137 @@ h2{
     float:left;
     margin-left: -535px;
     color: #979797;
+  }
+  .burger{
+      position: absolute;
+      cursor: pointer;
+      right:-100%;
+      top: 15px;
+      display:none;
+
+  }
+  .line{
+      width:33px;
+      background-color: black;
+      height: 4px;
+      margin:3px 3px;
+  }
+  @media only screen and (max-width:400px){
+      .wall-feed{
+          flex-direction: column;
+          text-align: right;
+          background-color: white;
+          margin-left: -2000px;
+          
+      }
+      .wall-feed li{
+          font-size: 20px;
+          margin-left: 20%;
+      }
+      .search-Bar{
+          text-align: center;
+          width:50%
+      }
+      .burger{
+          display: block;
+      }
+      .h-nav-resp{
+          height:22px;
+      }
+      .v-class-resp{
+          opacity: 0;
+
+      }
+      .logo{
+          margin-left: -220px;
+      }
+      .register{
+        flex-direction: column;
+
+        margin-left:auto; 
+        width:100%;
+      }
+      .register li{
+          font-size: 20px;
+          margin-left:-60px;
+
+        }      
+      .content{
+        flex-direction: column;
+        margin-left: -100%;
+        width:max-content;
+        height:max-content;
+
+      }
+      .right{
+          margin-top: 27%;
+          margin-left: 34%;
+      }
+      .navbar{
+          flex-direction: column;
+          text-align: left;
+          margin-left:auto; 
+          margin-top: 110px;
+          width:100%
+      }
+      .navbar li{
+          margin-left: -350px;
+          font-size: 20px;
+
+      }
+      .left{
+          width: max-content;
+          height:200px;
+          margin-left: -3%;
+
+      }
+      .links-part {
+          margin-left:-650px;
+          flex-direction: column;
+          display: block;
+      }
+      .footer{
+          flex-direction:column;
+          display: block;
+      }
+      .bottom{
+          flex-direction: column;
+          width:600px;
+          margin-left: 11%;
+      }
+      h2{
+          font-size: 15px;
+      }
+      h5{
+          font-size: 12px;
+      }
+      .footer{
+          width:max-content;
+          margin-left: 45%;
+          margin-top: 54%;
+      }
+      .links-part li{
+          font-size: 15px;
+      }
+      .signup{
+          margin-right:78%;
+          
+          margin-top: 3%;
+          width: max-content;
+          font-size: 15px;
+      }
+      .email{
+        margin-right:73%;
+        margin-top: -10%;
+        width:max-content
+      }
+      p{
+        margin-left:-15%;
+        margin-top: 4%;
+        font-size: 15px;
+      }
+
+
   }
 
 
