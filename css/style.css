@@ -179,6 +179,7 @@ h2{
       float:right;
       margin-top:-5px;
       color:#979797;
+      font-size: 15px;
 
   }
   p{
@@ -186,72 +187,70 @@ h2{
       float:left;
       margin-left: 250px;
       color: #979797;
+      font-size: 15px;
   }
   .email{
     float:right;
     margin-top:-20px;
     margin-right: 400px;
+    font-size: 15px;
 
   }
   .copyright{
-    margin-top:-10px;
+    margin-top:1px;
     float:left;
-    margin-left: -535px;
+    margin-left: -500px;
     color: #979797;
+    font-size: 15px;
   }
-  .burger{
-      position: absolute;
-      cursor: pointer;
-      right:-100%;
-      top: 15px;
-      display:none;
-
-  }
-  .line{
-      width:33px;
-      background-color: black;
-      height: 4px;
-      margin:3px 3px;
-  }
+  
   @media only screen and (max-width:400px){
     .wall-feed{
           flex-direction: column;
           text-align: right;
-          background-color:white;
-          margin-left: 400px;
-          margin-top: -15%;
+          background-color:black;
+          margin-left: 4px;
+          margin-top: 1%;
           margin-bottom: 2%;
           align-items: flex-start;
-          
+          height: 100%;
+          width:650px;
       }
       .wall-feed li{
+        font-size: 25px;
+        margin-left: -8%;
+        
+    }
+    .wall-feed  li a{
+        color:white;
         font-size: 20px;
-        margin-left: 2%;
     }
-   .search-Bar{
-        text-align: right;
-        width:50%
+    button{
+        margin-left:-4%;
     }
-    .burger{
-        display: block;
+   .search-bar{
+        text-align: center;
+        padding:0 10px;
+        width:35%;
+        margin-left: -4%;
     }
     .h-nav-resp{
-        height:72px;
+        height:2px;
     }
     .v-class-resp{
         opacity: 0;
 
     }
     .logo{
-        margin-left: -220px;
+        margin-left: -200px;
         height:60px;
         width:200px;
     }
     .register{
       flex-direction: column;
       align-items: flex-start;
-
-      margin-left:-25px; 
+     margin-top: 2%;
+      margin-left:-15%; 
       width:max-content;
     }
     .register li{
@@ -266,9 +265,9 @@ h2{
 
     }
     .right{
-        margin-top: 22%;
-        margin-left: -1%;
-        width:600px;
+        margin-top: 21%;
+        margin-left: -4%;
+        width:650px;
     }
     .points{
         font-size:22px;
@@ -280,7 +279,7 @@ h2{
         padding-left: 0px;
         padding-right: 0px;
         width:max-content;
-        margin-left: -250px;
+        margin-left: -270px;
         align-items: flex-start;
     }
     h1{
@@ -288,19 +287,19 @@ h2{
     }
     .navbar li{
         
-        font-size: 23px;
+        font-size: 25px;
     }
     .left{
         width:max-content;
         height:200px;
-        margin-left: -30%;
+        margin-left: -33%;
 
     }
     .links-part {
-        margin-left:-650px;
-        flex-direction: column;
+     margin-left: -66%;
         display: block;
-        margin-top: 54%;
+        margin-top: 23%;
+        
     }
     .footer{
         flex-direction:column;
@@ -313,9 +312,10 @@ h2{
         height: max-content;
     }
     .column{
-        width:100%;
+        width:650px;
         height: 300px;
-        margin-left: -2%;
+        margin-left: -8%;
+        margin-top: -1%;
 
     }
     h2{
@@ -331,33 +331,67 @@ h2{
     }
     .footer{
         width:max-content;
-        margin-left: 4%;
     }
     .links-part li{
-        font-size: 20px;
+        font-size: 25px;
 
     }
     .signup{
         margin-right:78%;
         
-        margin-top: 3%;
+        margin-top: 1%;
         width: max-content;
-        font-size: 20px;
+        font-size: 25px;
     }
     .email{
-      margin-right:73%;
-      margin-top: -10%;
+      margin-right:95%;
+      margin-top:-9%;
       width:max-content;
-      font-size: 20px;
+      font-size: 25px;
     }
     p{
-      margin-left:-15%;
-      margin-top: 4%;
-      font-size: 20px;
-      width: max-content;
+      margin-left:-13%;
+      margin-top: 1%;
+      font-size: 25px;
+      width:650px;
     }
-
-
+    .copyright{
+        float:left;
+        margin-top: -2%;
+        margin-left: -13%;
+        font-size: 25px;
+        width:100%;
+    }
+    .navbar-toggler {
+        display: block;
+        position: fixed;
+        float: left;
+        height: 40px;
+        top: 35px;
+        left: 66px;
+        background-color: transparent;
+        color: black;
+        border: 3px solid black;
+        outline: none;
+        cursor: pointer;
+      }
+      .navbar-toggler span,
+      .navbar-toggler span::before,
+      .navbar-toggler span::after {
+        display: block;
+        content: '';
+        background-color: black;
+        height: 3px;
+        width: 28px;
+        border-radius: 4px;
+        transition: all ease-in-out 0.3s;
+      }
+      .navbar-toggler span::before {
+        transform: translateY(-8px);
+      }
+      .navbar-toggler span::after {
+        transform: translateY(5px);
+      }
 }
 
 /*
@@ -383,7 +417,6 @@ h2{
     }
     .v-class-resp{
         opacity: 0;
-
     }
     .logo{
         margin-left: -220px;
@@ -398,18 +431,15 @@ h2{
     .navbar li{
         margin-left: -350px;
         font-size: 20px;
-
     }
     .register{
         flex-direction: column;
-
         margin-left:auto; 
         width:100%;
     }
       .register li{
           font-size: 20px;
           margin-left:-60px;
-
     } 
          
  }
@@ -419,7 +449,6 @@ h2{
         margin-left: -30%;
         width:max-content;
         height:max-content;
-
       }
       .right{
           margin-top: -16%;
@@ -479,7 +508,6 @@ h2{
         height:200px;
         margin-left: -2%;
     }
-
 }
 @media only screen and (max-width:1160px){
     .right{
@@ -500,7 +528,5 @@ h2{
         height:200px;
         margin-left: -5%;
     }
-
-
 }
     */
