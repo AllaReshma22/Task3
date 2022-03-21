@@ -10,7 +10,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 250px;
+    padding: 0 12vw;
     margin-top: -40px;
 }
 .navbar{
@@ -19,7 +19,7 @@ body{
     justify-content: space-between;
     width:100%;
     margin-top: 70px;
-    margin-left: 170px;
+    margin-left: 11vw;
 }
 
 .navbar li{
@@ -46,7 +46,7 @@ body{
     background-color: white;
 }
 .logo{
-    margin-left:120px;
+    margin-left:6vw;
     margin-top: 60px; 
     position: absolute;
     width:150px;
@@ -61,7 +61,7 @@ body{
     align-items: center;
     background-color:#D7D5D6;
     height:42px; 
-    width:100%;
+    width:100vw;
     border-bottom: 1px solid #E2E2E2;
     border-top: 1px solid #E2E2E2;
     margin-bottom:-15px;
@@ -97,8 +97,8 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-top:10px;
-    margin-left:360px;
-    width:1500px;
+    margin-left:17vw;
+    width:75vw;
 
 }
 .register li{
@@ -121,14 +121,15 @@ body{
     border-radius: 25px;
     
 }
-.content{
-    width:1410px;
-}
+
 .left{
-    padding-left:350px;
-    height: 350px;
-    margin-top: -1%;
+    padding-left:0vw;
+    margin-left: 17vw;
+    border: 5px solid white;
+     width:38vw;height:46vh; 
+    margin-top: -0.8%; 
 }
+
 h1{
     padding-top: 12%;
     color:#EDEBEC;
@@ -138,8 +139,8 @@ h2{
     font-size: 15px;
 }
 .bottom{
-    margin-left:390px;
-    width:1870px;
+    margin-left:19vw;
+    width:93vw;
     margin-top: -14px;  
      
 }
@@ -150,11 +151,15 @@ h2{
     padding: 0 8px;
     background-color: white;
     height:200px;
+    overflow: hidden;
+}
+.column img{
+    width:8vw;
 }
   .points{
       color: #E2E0E1;
       border-bottom: 2px solid #4C4A4A;
-      width:260px;
+      width:15vw;
       padding: 5px 5px;
       font-size: 13px;
   }
@@ -164,13 +169,13 @@ h2{
   }
   .right{
     background-color: black;
-    width:310px;
-    height:480px;
+    width:16vw;
+    height:46vh;
     padding-left: 2%;
     padding-right: 2%;
-
-    margin-left: 82%;
-    margin-top: -26%;
+    overflow: hidden;
+    margin-left: 55.5vw;
+    margin-top:-47vh;
     outline: 3px solid #4C4A4A;
     outline-offset: -10px;
   }
@@ -194,17 +199,18 @@ h2{
   .image{
      float: right;
      padding-right: -20px;
-     height:0px;
+
+     margin-top: -3vh;
   }
   .footer{
-    margin-top:150px;
-    width:1800px; 
-    margin-left: 150px;
+    margin-top:20vh;
+    width:92vw; 
+    margin-left: 6.5vw;
     
 
   }
   .links-part{
-      padding-left: 250px;
+     padding-left: 13vw;
       float:left;
       display:flex;
     align-items: center;
@@ -223,31 +229,31 @@ h2{
       justify-content: space-between;
   }
   .signup{
-      margin-right:25%;
+      margin-right:22vw;
       float:right;
-      margin-top:-5px;
+      margin-top:-1vh;
       color:#979797;
       font-size: 15px;
 
   }
   p{
-      margin-top: -10px;
+      margin-top: 4vh;
       float:left;
-      margin-left: 250px;
+      margin-left: -14.8vw;
       color: #979797;
       font-size: 15px;
   }
   .email{
     float:right;
-    margin-top:-15px;
-    margin-right: 480px;
+    margin-top:-1vh;
+    margin-right: 22vw;
     font-size: 15px;
 
   }
   .copyright{
-    margin-top:4px;
+    margin-top:1vh;
     float:left;
-    margin-left: -500px;
+    margin-left: -24vw;
     color: #979797;
     font-size: 15px;
   }
@@ -262,7 +268,7 @@ h2{
           margin-bottom: 2%;
           align-items: flex-start;
           height:100%;
-          width:650px;
+          width:230vw;
       }
       .wall-feed li{
         font-size: 30px;
@@ -296,7 +302,7 @@ h2{
 
     }
     .logo{
-        margin-left: -200px;
+        margin-left: 5vw;
         height:60px;
         width:200px;
     }
@@ -309,8 +315,8 @@ h2{
       flex-direction: column;
       align-items: flex-start;
      margin-top: 2%;
-      margin-left:-10%; 
-      width:max-content;
+      margin-left:-6vw; 
+      width:100vw;
     }
     .register li{
         font-size: 25px;
@@ -324,11 +330,16 @@ h2{
      
 
     }
+    .left {
+     width: 250vw;
+     height: 70vh;
+     margin-left: -33%;
+    }
     .right{
-        padding: -80 20px;
-        margin-top: 20%;
-        margin-left: -4%;
-        width:690px;
+        padding: 0 20px;
+        margin-top:-4vh;
+        margin-left: -13%;
+        width:220vw;
         height: 600px;
     }
     .content a{
@@ -344,7 +355,7 @@ h2{
         padding-left: 0px;
         padding-right: 0px;
         width:max-content;
-        margin-left: -270px;
+        margin-left: -14vw;
         align-items: flex-start;
     }
     .navbar a:hover{
@@ -369,17 +380,17 @@ h2{
         
         font-size: 25px;
     }
-    .left{
-        width:max-content;
-        height:200px;
-        margin-left: -33%;
-        
+    
+    .left img{
+        width:100%;
+        height:20vh;
+        margin-left: -3vw;
 
     }
     .links-part {
-     margin-left: -72%;
+     margin-left: -240vw;
         display: block;
-        margin-top: 23%;
+        margin-top: 37vh;
         
     }
     .footer{
@@ -394,11 +405,13 @@ h2{
         height: max-content;
     }
     .column{
-        width:720px;
+        width:232vw;
         height: 300px;
         margin-left: -8%;
         margin-top: -1%;
-
+    }
+    .column img{
+        width:70vw;
     }
     h2{
         font-size: 30px;
@@ -407,9 +420,9 @@ h2{
         font-size: 25px;
     }
     .image{
-     width:50%;
-     margin-top: -5%;
-     margin-right: -3%;
+     width:2vw;
+     margin-top: -10vh;
+     margin-right: 32%;
     }
    
     .links-part li{
@@ -417,20 +430,20 @@ h2{
 
     }
     .signup{
-        margin-right:75%;
+        margin-right:290vw;
         
-        margin-top: 2%;
+        margin-top: 2vh;
         width: max-content;
         font-size: 25px;
     }
     .email{
-      margin-right:92%;
-      margin-top:-9%;
+      margin-right:83%;
+      margin-top:-16vh;
       width:max-content;
       font-size: 25px;
     }
     p{
-      margin-left:-10%;
+      margin-left:0%;
       margin-top: 1%;
       font-size: 25px;
       width:650px;
@@ -438,7 +451,7 @@ h2{
     .copyright{
         float:left;
         margin-top: -1%;
-        margin-left: -10%;
+        margin-left: 0%;
         font-size: 25px;
         width:100%;
     }
