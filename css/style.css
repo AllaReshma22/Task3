@@ -255,62 +255,9 @@ footer p {
 .login form buttom  {
 	padding: 2px 5px;
 }
-  /*.footer{
-    width:92vw; 
-    
-
-  }
-  .links-part{
-     padding-left: 19vw;
-      float:left;
-      display:flex;
-    align-items: center;
-    justify-content: space-between;
-
-  }
-  .links-part li{
-    display:inline;
-    align-items: center;
-    justify-content: space-between;
-      color: #979797;
-      text-decoration: underline;
-  }
-  .links-part li a{
-      color: #979797;
-      justify-content: space-between;
-  }
-  .signup{
-      margin-right:17vw;
-      float:right;
-      margin-top:-1vh;
-      color:#979797;
-      font-size: 15px;
-
-  }
-  p{
-      margin-top: 4vh;
-      float:left;
-      margin-left: -14.8vw;
-      color: #979797;
-      font-size: 15px;
-  }
-  .email{
-    float:right;
-    margin-top:-1vh;
-    margin-right: 22vw;
-    font-size: 15px;
-
-  }
-  .copyright{
-    margin-top:1vh;
-    float:left;
-    margin-left: -24vw;
-    color: #979797;
-    font-size: 15px;
-  }*/
-  
-  @media only screen and (max-width:400px){
-    .wall-feed{
+@media only screen and (max-width:400px){
+    .wall-feed
+       {
           flex-direction: column;
           text-align: right;
           background-color:#979797;
@@ -320,13 +267,13 @@ footer p {
           align-items: flex-start;
           height:100%;
           width:230vw;
-      }
+        }
       .wall-feed li{
         font-size: 30px;
         margin-left: -8%;
         border-right: none;
         
-    }
+        }
     .container{
         border-bottom: none;
         border-top: none;
@@ -522,140 +469,3 @@ footer p {
         transform: translateY(5px);
       }
 }
-
-/*
- @media only screen and (max-width:1245px)
-  {
-    .wall-feed{
-        flex-direction: column;
-        text-align: right;
-        background-color: white;
-        margin-left: -2000px;
-        
-    }
-    .wall-feed li{
-        font-size: 20px;
-        margin-left: 20%;
-    }
-    .search-Bar{
-        text-align: center;
-        width:50%
-    }
-    .h-nav-resp{
-        height:22px;
-    }
-    .v-class-resp{
-        opacity: 0;
-    }
-    .logo{
-        margin-left: -220px;
-    }
-    .navbar{
-        flex-direction: column;
-        text-align: left;
-        margin-left:auto; 
-        margin-top: 110px;
-        width:100%
-    }
-    .navbar li{
-        margin-left: -350px;
-        font-size: 20px;
-    }
-    .register{
-        flex-direction: column;
-        margin-left:auto; 
-        width:100%;
-    }
-      .register li{
-          font-size: 20px;
-          margin-left:-60px;
-    } 
-         
- }
- @media only screen and (max-width:1484px) {
-    .content{
-        flex-direction: column;
-        margin-left: -30%;
-        width:max-content;
-        height:max-content;
-      }
-      .right{
-          margin-top: -16%;
-          margin-left: 94%;
-      }
-      .left{
-          height:200px;
-          margin-left: 4%;
-      }
-      .links-part {
-        margin-left:-875px;
-        flex-direction: column;
-        display: block;
-        margin-top: -1px;
-    }
-    .footer{
-        flex-direction:column;
-        display: block;
-        margin-left: 55%;
-        margin-top: 20%;
-    }
-    .bottom{
-        flex-direction: column;
-        width:1600px;
-        margin-left: 3%;
-    }
-    .signup{
-        margin-right:80%;
-        
-        margin-top: -2%;
-        width: max-content;
-        font-size: 15px;
-    }
-    .email{
-      margin-right:80%;
-      margin-top: -1%;
-      width:max-content
-    }
-    p{
-      margin-left:-39%;
-      margin-top: 2%;
-      font-size: 15px;
-    }
-    .copyright{
-        margin-top:27px;
-        float:left;
-        margin-left: -625px;
-        color: #979797;
-      }
-}
-@media only screen and (max-width:1315px){
-    .right{
-        margin-top: -16%;
-        margin-left: 90%;
-    }
-    .left{
-        height:200px;
-        margin-left: -2%;
-    }
-}
-@media only screen and (max-width:1160px){
-    .right{
-        margin-top: -16%;
-        margin-left: 85%;
-    }
-    .left{
-        height:200px;
-        margin-left: -5%;
-    }
-}
-@media only screen and(max-width:1076px){
-    .right{
-        margin-top: -16%;
-        margin-left: 85%;
-    }
-    .left{
-        height:200px;
-        margin-left: -5%;
-    }
-}
-    */
