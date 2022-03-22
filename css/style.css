@@ -202,15 +202,66 @@ h2{
 
      margin-top: -3vh;
   }
-  .footer{
-    margin-top:20vh;
+  footer {
+	width: 58%;
+	margin-left: 19.5vw;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5% 0;
+}
+
+footer a {
+	font-size: 0.75em;
+	color: #8e8d8f;
+	text-decoration: underline;
+}
+
+.footer-links {
+	margin: 0 0 2% 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+}
+
+.footer-links li {
+	padding: 0 2%;
+	border-left: 1px solid #8e8d8f;
+}
+
+.footer-links li:first-child {
+	padding-left: 0;
+	border-left: none;
+}
+
+footer p {
+	color: #8e8d8f;
+	font-size: 0.8em;
+	margin: 0 0 2% 0;
+}
+
+.mail-id {
+	font-size: 1em;
+}
+
+.login  form input {
+	font-size: 0.8em;
+	width: 60%;
+	border: none;
+	padding: 3px 0;
+	padding-left: 5px;
+	box-shadow: 2px 2px 2px #737373 inset;
+}
+
+.login form buttom  {
+	padding: 2px 5px;
+}
+  /*.footer{
     width:92vw; 
-    margin-left: 6.5vw;
     
 
   }
   .links-part{
-     padding-left: 13vw;
+     padding-left: 19vw;
       float:left;
       display:flex;
     align-items: center;
@@ -229,7 +280,7 @@ h2{
       justify-content: space-between;
   }
   .signup{
-      margin-right:22vw;
+      margin-right:17vw;
       float:right;
       margin-top:-1vh;
       color:#979797;
@@ -256,7 +307,7 @@ h2{
     margin-left: -24vw;
     color: #979797;
     font-size: 15px;
-  }
+  }*/
   
   @media only screen and (max-width:400px){
     .wall-feed{
@@ -337,10 +388,10 @@ h2{
     }
     .right{
         padding: 0 20px;
-        margin-top:-4vh;
+        margin-top:0.6vh;
         margin-left: -13%;
         width:220vw;
-        height: 600px;
+        height: 700px;
     }
     .content a{
         font-size: 20px;
@@ -387,17 +438,6 @@ h2{
         margin-left: -3vw;
 
     }
-    .links-part {
-     margin-left: -240vw;
-        display: block;
-        margin-top: 37vh;
-        
-    }
-    .footer{
-        flex-direction:column;
-        display: block;
-        width: max-content;
-    }
     .bottom{
         flex-direction: column;
         width:600px;
@@ -424,37 +464,33 @@ h2{
      margin-top: -10vh;
      margin-right: 32%;
     }
-   
-    .links-part li{
-        font-size: 25px;
+    footer {
+		display: inline-block;
+        text-align: center;
+        width:180vw;
+	}
 
-    }
-    .signup{
-        margin-right:290vw;
-        
-        margin-top: 2vh;
-        width: max-content;
-        font-size: 25px;
-    }
-    .email{
-      margin-right:83%;
-      margin-top:-16vh;
-      width:max-content;
-      font-size: 25px;
-    }
-    p{
-      margin-left:0%;
-      margin-top: 1%;
-      font-size: 25px;
-      width:650px;
-    }
-    .copyright{
-        float:left;
-        margin-top: -1%;
-        margin-left: 0%;
-        font-size: 25px;
-        width:100%;
-    }
+	
+
+	footer p {
+		font-size: 1.6em;
+	}
+
+	.footer-links {
+		justify-content: center;
+	}
+
+	.footer-links li a {
+		font-size: 1.6em;
+	}
+
+	.login form input {
+		font-size: 1.6em;
+	}
+
+	.login form button {
+		font-size: 1.6em;
+	}
     .navbar-toggler {
         display: block;
         position: fixed;
