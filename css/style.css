@@ -62,12 +62,12 @@ body{
     background-color:#D7D5D6;
     height:42px; 
     width:100vw;
-    margin-left: 40px;
     border-bottom: 1px solid #E2E2E2;
     border-top: 1px solid #E2E2E2;
     margin-bottom:-15px;
     margin-top: 1px;
 }
+
 .wall-feed li{
     display: inline;
     align-items: center;
@@ -505,7 +505,7 @@ footer p {
 	}
 
 }
-@media only screen and (max-width:1600px){
+@media only screen and (max-width:1800px){
     .wall-feed
        {
           flex-direction: column;
@@ -581,4 +581,5 @@ footer p {
       .navbar-toggler span::after {
         transform: translateY(5px);
       }
+    
 }
