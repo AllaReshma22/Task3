@@ -553,7 +553,7 @@ footer p {
     }
     .navbar-toggler {
         display: block;
-        position: fixed;
+        position: absolute;
         float: left;
         height: 40px;
         top: 35px;
