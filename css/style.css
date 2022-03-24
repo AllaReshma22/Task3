@@ -17,7 +17,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    width:110%;
+    width:55vw;
     margin-top: 70px;
     margin-left: 13vw;
 }
@@ -74,7 +74,7 @@ body{
     justify-content: space-between;
     border-right:3px solid #E4E3E2; 
     list-style-type:none;
-    padding:0 40px;
+    padding:0 35px;
     font-family:Trebuchet MS;
     font-size: 13px;
     float:right;
