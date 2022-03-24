@@ -434,15 +434,6 @@ footer p {
         margin-left: -12vw;
         align-items: flex-start;
     }
-    .navbar a:hover{
-        background-color: #979797;
-        color: white;
-    }
-    .hover:hover{
-        background-color: black;
-        width:max-content;
-        color: #979797;
-    }  
 
 }
 @media only screen and (max-width:1120px){
@@ -529,6 +520,7 @@ footer p {
 	.wall-feed li {
 		border: none;
 	}
+    .wall-feed li a 
 	.search-bar {
 		text-align: center;
 		padding: 1% 0;
@@ -537,42 +529,6 @@ footer p {
 	.search-bar form {
 		margin-left:-12vw;
 	}
-
-	
-    /*.wall-feed
-       {
-          flex-direction: column;
-          text-align: right;
-          background-color:#979797;
-          margin-left: 4px;
-          margin-top: 1%;
-          margin-bottom: 2%;
-          align-items: flex-start;
-          height:max-content;
-          width:100%;
-        }
-      .wall-feed li{
-        font-size: 30px;
-        margin-left: 0%;
-        border-right: none;
-        
-        }
-    .container{
-        border-bottom: none;
-        border-top: none;
-    }
-    .wall-feed  li a{
-        color:white;
-        font-size: 20px;
-    }
-   .search-bar{
-        text-align: center;
-        width:75%;
-        height: 10%;
-        margin-left: 0%;
-        padding: 0 10px;
-        font-size: 25px;
-    }*/
     button{
         margin-left: 2%;
         font-size: 20px;
