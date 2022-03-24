@@ -340,7 +340,7 @@ footer p {
 	font-size: 1em;
 }
 
-.login  form input {
+.signup  form input {
 	font-size: 0.9em;
 	width: 60%;
 	border: none;
@@ -349,7 +349,7 @@ footer p {
 	box-shadow: 2px 2px 2px #737373 inset;
 }
 
-.login form buttom  {
+.signup form buttom  {
 	padding: 2px 5px;
 }
 @media only screen and (max-width:500px){
@@ -383,11 +383,11 @@ footer p {
 		font-size: 1em;
 	}
 
-	.login form input {
+	.signup form input {
 		font-size: 1em;
 	}
 
-	.login form button {
+	.signup form button {
 		font-size: 1em;
 	}
 }
